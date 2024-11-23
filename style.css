@@ -455,11 +455,25 @@ background: linear-gradient(to bottom, #6a11cb, #2575fc, #ff0099);
 
 }
 
+
 .con-btn{
   display: flex;
   justify-content: space-between;
   width: 40%;
-}
+  }
+@media screen and (max-width:850px) {
+  #editbtn{
+    width: 150px;
+    }
+    #daonload{
+      width: 180px;
+    }
+    .con-btn{
+      display: flex;
+      justify-content: space-between;
+      width: 95%;
+      }
+    }
 .container1{
 
   margin-left: auto;
